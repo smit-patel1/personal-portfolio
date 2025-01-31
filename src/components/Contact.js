@@ -24,7 +24,8 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
 
-    const formEndpoint = "https://formsubmit.co/smit.r.patel5@gmail.com"; 
+    const formEndpoint =
+      "https://formsubmit.co/c2d066808daa5fd5ab674cec4b58924c";
 
     const formData = new FormData();
     formData.append("firstName", formDetails.firstName);
@@ -32,8 +33,8 @@ export const Contact = () => {
     formData.append("email", formDetails.email);
     formData.append("phone", formDetails.phone);
     formData.append("message", formDetails.message);
-    formData.append("_captcha", "false"); 
-    formData.append("_template", "table"); 
+    formData.append("_captcha", "false");
+    formData.append("_template", "table");
 
     try {
       const response = await fetch(formEndpoint, {
@@ -43,7 +44,7 @@ export const Contact = () => {
 
       if (response.ok) {
         setStatus({ success: true, message: "Message sent successfully!" });
-        setFormDetails(formInitialDetails); // Reset form
+        setFormDetails(formInitialDetails);
       } else {
         setStatus({
           success: false,

@@ -255,18 +255,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: #121212; 
+  background: #121212;
 }
 
 .banner .container {
-  z-index: 2; 
+  z-index: 2;
   position: relative;
 }
 
 .banner .tagline {
   font-weight: 700;
   font-size: 1.1rem;
-  color: #332391; 
+  color: #332391;
   background: linear-gradient(
     90deg,
     rgba(0, 201, 255, 0.8),
@@ -350,8 +350,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1; 
-  background-color: #000; 
+  z-index: 1;
+  background-color: #000;
 }
 
 /************ Skills Css ************/
@@ -362,7 +362,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 30px 20px;
   margin-top: -40px;
-  max-width: 80%;
+  max-width: 85%;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -370,7 +370,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 10;
   position: relative;
-  overflow: visible; 
+  overflow: visible;
 }
 
 /* Skill Item Styling */
@@ -413,20 +413,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .react-multiple-carousel__arrow--left {
   left: -80px;
-  transform: translateX(-110%) translateY(-90%);
+  transform: translateX(-120%) translateY(-90%);
 }
 
 .react-multiple-carousel__arrow--right {
   right: -80px;
-  transform: translateX(110%) translateY(-90%); 
+  transform: translateX(120%) translateY(-90%);
 }
 
 @media (max-width: 1024px) {
   .react-multiple-carousel__arrow--left {
-    left: -60px; 
+    left: -60px;
   }
   .react-multiple-carousel__arrow--right {
-    right: -60px; 
+    right: -60px;
   }
 }
 
@@ -438,8 +438,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   background-color: transparent;
-  z-index: 2; 
-  position: relative; 
+  z-index: 2;
+  position: relative;
 }
 
 .project h2 {
@@ -448,7 +448,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   color: #ffffff;
   margin-bottom: 20px;
-  z-index: 3; 
+  z-index: 3;
   position: relative;
 }
 
@@ -457,7 +457,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   text-align: center;
   margin-bottom: 50px;
-  z-index: 3; 
+  z-index: 3;
   position: relative;
 }
 
@@ -466,7 +466,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  z-index: 3; 
+  z-index: 3;
   position: relative;
 }
 
@@ -476,7 +476,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   max-width: 450px;
   margin: 0 auto;
-  z-index: 3; 
+  z-index: 3;
   position: relative;
 }
 
@@ -499,7 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-description {
   text-align: center;
   color: #ffffff;
-  z-index: 3; 
+  z-index: 3;
   position: relative;
 }
 
@@ -521,7 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-wrap: wrap;
   gap: 15px;
   margin-bottom: 15px;
-  z-index: 3; 
+  z-index: 3;
   position: relative;
 }
 
@@ -549,7 +549,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: center;
   gap: 15px;
-  z-index: 3; 
+  z-index: 3;
   position: relative;
 }
 
@@ -578,43 +578,43 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contacts Css ************/
 .contact {
-  position: relative; 
+  position: relative;
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  padding: 60px 20px; 
+  padding: 60px 20px;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; 
-  max-height: 100vh; 
+  min-height: 80vh;
+  max-height: 100vh;
 }
 
 .contact-container {
-  position: relative; 
+  position: relative;
   z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1100px; 
-  gap: 30px; 
+  max-width: 1100px;
+  gap: 30px;
 }
 
 .contact-container img {
-  flex: 1; 
-  max-width: 100%; 
+  flex: 1;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 15px; 
+  border-radius: 15px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
   z-index: 2;
 }
 
 .contact-form {
-  position: relative; 
-  z-index: 2; 
+  position: relative;
+  z-index: 2;
   flex: 1;
-  max-width: 60%; 
+  max-width: 60%;
   background: rgba(0, 0, 0, 0.5);
   padding: 30px;
   border-radius: 15px;
@@ -626,12 +626,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
-  z-index: 3; 
+  z-index: 3;
 }
 
 .contact-form form {
   position: relative; /* Necessary for z-index */
-  z-index: 2; 
+  z-index: 2;
   width: 100%;
 }
 
@@ -689,13 +689,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 20px 0;
-  background: transparent; 
-  z-index: 10; 
+  background: transparent;
+  z-index: 10;
   position: relative;
 }
 
 .footer img {
-  width: 120px; 
+  width: 120px;
   margin-bottom: 12px;
 }
 
@@ -707,13 +707,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer .social-icon a img {
-  width: 40px; 
+  width: 40px;
   height: 40px;
   transition: transform 0.3s ease-in-out;
 }
 
 .footer .social-icon a img:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
 .footer p {
